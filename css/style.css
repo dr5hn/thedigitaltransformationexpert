@@ -2666,6 +2666,10 @@ figcaption {
   width: 100%;
 }
 
+.hide-desktop {
+  display: none;
+}
+
 .button.small {
   padding: 20px 18px;
   font-size: 18px;
@@ -2988,6 +2992,10 @@ figcaption {
 .padding-horizontal {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.margin-remove {
+  margin: 0px !important;
 }
 
 .margin-tiny {
@@ -4451,6 +4459,14 @@ figcaption {
   .padding-huge {
     padding-top: 30px;
     padding-bottom: 40px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 
   .column {
