@@ -4451,7 +4451,7 @@ figcaption {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 485px) {
   .color-block {
     margin-bottom: 20px;
   }
